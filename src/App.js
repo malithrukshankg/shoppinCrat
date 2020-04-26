@@ -57,7 +57,7 @@ class App extends React.Component {
  
 }
 
-const mapSateToProps=state=>({
+const mapSateToProps=(state)=>({
 
   currentUser: state.user.currentUser
 
